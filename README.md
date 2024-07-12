@@ -48,11 +48,11 @@
 
 ### Подготовка файла к коммиту
 
-`git add todo.txt` (от англ. _add_, «добавить») — подготовь файл `todo.txt` к коммиту;
+- `git add todo.txt` (от англ. _add_, «добавить») — подготовь файл `todo.txt` к коммиту;
 
-`git add --all` (от англ. _add_, «добавить» + _all_, «всё») — подготовь к коммиту сразу все файлы, в которых были изменения, и все новые файлы;
+- `git add --all` (от англ. _add_, «добавить» + _all_, «всё») — подготовь к коммиту сразу все файлы, в которых были изменения, и все новые файлы;
 
-`git add .` — подготовь к коммиту текущую папку и все файлы в ней.
+- `git add .` — подготовь к коммиту текущую папку и все файлы в ней.
 
 ----
 
@@ -72,18 +72,18 @@
 
 ----
 ### Конфигурация Git
-`git config` - просмотр настроек
-`git confil` --global user.name/email - установка имени/емейла глобально, для всех проектов
-`git config` --unset user.email/name - удалить локальные емейл/имя для проекта
-`git config` --global core.editor - установка текстового редактора гита
-`git config` --global aliac.c config - создать алиас c на команду config
-`git init` создать git файл в проекте
-`git add` - добавить файл в буфер гита 
+- `git config` - просмотр настроек
+- `git confil` --global user.name/email - установка имени/емейла глобально, для всех проектов
+- `git config` --unset user.email/name - удалить локальные емейл/имя для проекта
+- `git config` --global core.editor - установка текстового редактора гита
+- `git config` --global aliac.c config - создать алиас c на команду config
+- `git init` создать git файл в проекте
+- `git add` - добавить файл в буфер гита 
 
 -----
 ### Связывание репозитория
-`git init`
-`git add README.md`
-`git commit -m "first commit"`
-`git remote add origin`
-`git push -u origin main`
+- `git init`
+- `git add README.md`
+- `git commit -m "first commit"`
+- `git remote add origin`
+- `git push -u origin main`
