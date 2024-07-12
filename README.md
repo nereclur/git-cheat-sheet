@@ -79,3 +79,11 @@
 `git config` --global aliac.c config - создать алиас c на команду config
 `git init` создать git файл в проекте
 `git add` - добавить файл в буфер гита 
+
+-----
+### Связывание репозитория
+`git init`
+`git add README.md`
+`git commit -m "first commit"`
+`git remote add origin`
+`git push -u origin main`
